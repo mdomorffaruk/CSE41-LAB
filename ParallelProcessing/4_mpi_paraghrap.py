@@ -18,9 +18,31 @@ def distribute_data(comm, filename):
 
     return paragraph
 
+
+
+def custom_findall(paragraph, pattern):
+    # Compile the regex pattern outside the loop for efficiency
+    compiled_pattern = re.compile(pattern)
+
+    matches = []
+    i = 0
+
+    while i < len(paragraph):
+        # Use the compiled pattern for matching
+        match = compiled_pattern.match(paragraph[i:])
+        if match:
+            matches.append(match.group())
+            i += match.end()
+        else:
+            break
+
+    return matches
+
 def count_pattern_occurrences(paragraph, pattern):
-    # Count occurrences of the given pattern in the paragraph
-    occurrences = len(re.findall(pattern, paragraph))
+    # print(paragraph)
+    # Count occurrences of the given pattern in the paragraph using custom function
+    occurrences = len(custom_findall(paragraph, pattern))
+    # print(occurrences)
     return occurrences
 
 def main():
@@ -30,7 +52,8 @@ def main():
 
     if rank == 0:
         # Read input from user
-        filename = input("Enter the file name: ")
+        # filename = input("Enter the file name: ")
+        filename = "patt.txt"
         pattern = input("Enter the pattern to search: ")
     else:
         filename, pattern = [None] * 2
