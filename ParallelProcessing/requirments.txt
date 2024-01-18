@@ -1,2 +1,5 @@
 mpi4py
 numba
+numba>=0.53.0
+numpy>=1.17.3
+

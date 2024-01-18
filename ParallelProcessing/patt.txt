@@ -1,0 +1,1 @@
+This is a sample paragraph containing saikat as a placeholder. The pattern %x% appears multiple times throughout the paragraph. Let's see how the MPI program can find and count these occurrences. %x% is an example pattern, and you can replace it with any other pattern as needed.%x% this is me , %x% how are you %x%.
