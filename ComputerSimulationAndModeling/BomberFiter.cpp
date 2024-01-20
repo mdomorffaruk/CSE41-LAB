@@ -1,6 +1,6 @@
 
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 #include<math.h>
 int main()
 {
@@ -32,6 +32,6 @@ for(t=0;t<=12;t++) {
 }
 if(t>11)
 printf("Target Escaped\n");
-getch();
+// getch();
 return(0);
   }
