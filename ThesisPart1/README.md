@@ -79,3 +79,28 @@ For permission requests, contact [Mohammad Omor Faruk](https://mdomorffaruk.gith
 ### Contact
 
 For any inquiries or support, feel free to contact me at [Email](mdomorffaruk@gmail.com).
+
+
+-----------------------------------
+Ctrl+Shift+I to give the prompt:: 
+Chat GPT
+
+Hi GPT, need help making a project proposal, the proposal is about a vulnerability scanner. 
+It will not scan any OS, it will scan websites [input will be website ip address or website address  ex: 10.0.0.1 or  www.abc.com ], and gives result of 
+ port, host, dns, CVEs, etc scan result. It will show the result  in web interface. 
+
+I will made backend with node js, front end with react. 
+Nojs will run some bash script to get the result. 
+Script will contain python , go and bash scripting. 
+
+Project will be s SAAS (Software as a service, ) , Because I am planning to make it live+ make a subscription so that , all people can do normal scan, but some feature will be available only for subscription users.. 
+
+as I am developing the project on my own, I have to make 3 things, 
+1. project proposal
+2. project presentation (pptx) so that I can show the project to teachers
+3. Final project report. 
+For now I only need the project proposal. I'll give you some content, maybe some another persons project as example so that you can understand about  it, then you have to make it for my project. 
+
+response :
+
+I want GPT to give me answer when I ask for answer.. No extra description, extra code, necessary, I actually not going to code now.. this is a project planning and proposal. so No code needed. 
